@@ -1,0 +1,248 @@
+// tel 
+@media (min-width: 320px) and (max-width: 426px){
+    .partie3{
+        .titreP3{
+            text-align: center;
+            font-size: small;
+            h1{
+                margin-bottom: 0;
+            }
+            p{
+                opacity: 30%;
+                margin-top: 0;
+                margin-bottom: 15%;
+            }
+        }
+        .largeur-img-p{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            .reverse{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            .h4-h3-p{
+                h4{
+                    margin-bottom: 0;
+                }
+                h5{
+                    margin: 0;
+                    opacity: 30%;
+                }
+            }
+            div{
+                img{
+                    width: 80%;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+// tablet
+@media (min-width: 427px) and (max-width: 769px){
+    .partie3{
+        .titreP3{
+            margin-top: 7%;
+            margin-bottom: 5%;
+            text-align: start;
+        }
+        .largeur-img-p{
+            display: flex;
+            width: 80%;
+            padding: 3%;
+            margin-left: 5%;
+            margin-right: 5%;
+            text-align: end;
+            .h4-h3-p{
+                font-size: 60%;
+                width: 65%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                margin-left: 5%;
+                margin-right: 5%;
+                h4{
+                    margin-bottom: 0;
+                }
+                h5{
+                    margin-top: 0;
+                    opacity: 40%;
+                }
+                p{
+                    opacity: 40%;
+                    width: 80;
+                }
+            }
+            div{
+                display: flex;
+                align-items: center;
+                img{
+                    border-radius: 50%;
+                    width: 80px;
+                    box-shadow: 1px 1px 12px #555;
+                }
+            }
+            .reverse{
+                display: flex;
+                text-align: start;
+                .h4-h3-p{
+                    display: flex;
+                    align-items: flex-start;
+                    width: 60%;
+                    h4{
+                        margin-bottom: 0;
+                    }
+                    h5{
+                        margin-top: 0;
+                    }
+                }
+                div{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 8%;
+                    img{
+                    }
+                }
+            }
+        }
+    }
+}
+
+// laptop 
+@media (min-width: 770px) {
+    .partie3{
+        .titreP3{
+            margin-top: 7%;
+            margin-bottom: 5%;
+            text-align: start;
+        }
+        .largeur-img-p{
+            display: flex;
+            width: 80%;
+            padding: 3%;
+            margin-left: 5%;
+            margin-right: 5%;
+            text-align: end;
+            .h4-h3-p{
+                font-size: 90%;
+                width: 65%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                margin-left: 5%;
+                margin-right: 5%;
+                h4{
+                    margin-bottom: 0;
+                }
+                h5{
+                    margin-top: 0;
+                    opacity: 40%;
+                }
+                p{
+                    opacity: 40%;
+                    width: 80;
+                }
+            }
+            div{
+                display: flex;
+                align-items: center;
+                img{
+                    border-radius: 50%;
+                    width: 110px;
+                    box-shadow: 1px 1px 12px #555;
+                }
+            }
+            .reverse{
+                display: flex;
+                text-align: start;
+                .h4-h3-p{
+                    display: flex;
+                    align-items: flex-start;
+                    width: 60%;
+                    h4{
+                        margin-bottom: 0;
+                    }
+                    h5{
+                        margin-top: 0;
+                    }
+                }
+                div{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 8%;
+                    img{
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1442px) and (max-width:2560px){
+    .partie3{
+        .titreP3{
+            margin-top: 7%;
+            margin-bottom: 5%;
+            text-align: start;
+        }
+        .largeur-img-p{
+            display: flex;
+            width: 76%;
+            padding: 3%;
+            text-align: end;
+            .h4-h3-p{
+                font-size: 90%;
+                width: 65%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                margin-left: 5%;
+                margin-right: 5%;
+                h4{
+                    margin-bottom: 0;
+                }
+                h5{
+                    margin-top: 0;
+                    opacity: 40%;
+                }
+                p{
+                    opacity: 40%;
+                    width: 80;
+                }
+            }
+            div{
+                display: flex;
+                align-items: center;
+                img{
+                    border-radius: 50%;
+                    width: 110px;
+                    box-shadow: 1px 1px 12px #555;
+                }
+            }
+            .reverse{
+                display: flex;
+                text-align: start;
+                .h4-h3-p{
+                    display: flex;
+                    align-items: flex-start;
+                    width: 60%;
+                    h4{
+                        margin-bottom: 0;
+                    }
+                    h5{
+                        margin-top: 0;
+                    }
+                }
+                div{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 8%;
+                    img{
+                    }
+                }
+            }
+        }
+    }
+}

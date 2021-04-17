@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+
+
+}
+@media (min-width: 320px) and (max-width: 426px){
+    .barnav{
+        height: 160PX;
+        background-position: top;
+        background-size: 100%;
+        background-image: url(../../../public/images/banner.jpg);
+        width:100%;
+        color: rgba(255, 255, 255, 0.767);
+        display: flex;
+        flex-direction: column;
+        .bar{
+            display: flex;
+            justify-content: space-between;
+            .template{
+                p{
+                    font-size: 60%;
+                    margin-left: 5%;
+                    width: 100%;
+                    font-weight: lighter;
+                }
+            }
+            .menu{
+                display: flex;
+                width: 45%;
+                p{
+                    font-size: 50%;
+                    margin: 5%;
+                }
+            }
+        }
+        .spatial{
+            text-align: center;
+            h1{
+                font-size: 160%;
+                color: rgb(255, 255, 255);
+            }
+            p{
+                font-size: 60%;
+                
+            }
+            button{
+                background-color: orangered;
+                color: white;
+                font-size: 40%;
+                padding: 2%;
+            }
+        }
+    }
+}
+
+@media (min-width: 427px) and (max-width: 769px){
+    .barnav{
+        height: 250PX;
+        background-position: top;
+        background-size: 100%;
+        background-image: url(../../../public/images/banner.jpg);
+        width:100%;
+        color: rgba(255, 255, 255, 0.637);
+        display: flex;
+        flex-direction: column;
+        .bar{
+            display: flex;
+            justify-content: space-between;
+            .template{
+                p{
+                    font-size: 60%;
+                    margin-left: 5%;
+                    width: 100%;
+                    font-weight: lighter;
+                }
+            }
+            .menu{
+                display: flex;
+                width: 20%;
+                p{
+                    font-size: 50%;
+                    margin: 5%;
+                }
+            }
+        }
+        .spatial{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size: 160%;
+                color: rgb(255, 255, 255);
+            }
+            p{
+                font-size: 80%;
+                width: 50%;
+                
+            }
+            button{
+                background-color: orangered;
+                color: white;
+                font-size: 40%;
+                padding: 1%;
+            }
+        }
+    }
+}
+
+@media (min-width: 770px) and (max-width:1441px) {
+    .barnav{
+        height: 450PX;
+        background-position: top;
+        background-size: 100%;
+        background-image: url(../../../public/images/banner.jpg);
+        width:100%;
+        color: rgba(255, 255, 255, 0.767);
+        display: flex;
+        flex-direction: column;
+        .bar{
+            display: flex;
+            justify-content: space-between;
+            .template{
+                p{
+                    font-size: 60%;
+                    margin-left: 5%;
+                    width: 100%;
+                    font-weight: lighter;
+                    span{
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+            .menu{
+                display: flex;
+                width: 15%;
+                p{
+                    font-size: 50%;
+                    margin: 5%;
+                }
+            }
+        }
+        .spatial{
+            margin-top: 5%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size: 160%;
+                color: white;
+            }
+            p{
+                width: 40%;
+                
+            }
+            button{
+                background-color: orangered;
+                color: white;
+                font-size: 40%;
+                padding: 1%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1442px) and (max-width:2560px){
+    .barnav{
+        height: 450PX;
+        background-position: top;
+        background-size: 100%;
+        background-image: url(../../../public/images/banner.jpg);
+        width:100%;
+        color: rgba(255, 255, 255, 0.767);
+        display: flex;
+        flex-direction: column;
+        .bar{
+            display: flex;
+            justify-content: space-between;
+            .template{
+                p{
+                    font-size: 60%;
+                    margin-left: 5%;
+                    width: 100%;
+                    font-weight: lighter;
+                    span{
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+            .menu{
+                display: flex;
+                width: 15%;
+                p{
+                    font-size: 50%;
+                    margin: 5%;
+                }
+            }
+        }
+        .spatial{
+            margin-top: 5%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size: 220%;
+                color: white;
+            }
+            p{
+                width: 40%;
+                
+            }
+            button{
+                background-color: orangered;
+                color: white;
+                font-size: 40%;
+                padding: 0.5%;
+                width: 10%;
+            }
+        }
+    }
+}

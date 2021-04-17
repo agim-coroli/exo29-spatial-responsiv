@@ -1,0 +1,99 @@
+@media (min-width: 320px) and (max-width: 426px){
+    footer{
+        background-color: white;
+        height: 140px;
+        opacity: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        div{
+            height: 50%;
+            .icons{
+                height: 70%;
+                font-size: 150%;
+                i{
+                    margin: 2%;
+                }
+            }
+            .copyright{
+                font-size: 80%;
+            } 
+        }
+    }
+}
+
+@media (min-width: 427px) and (max-width: 769px){
+    footer{
+        background-color: white;
+        height: 140px;
+        opacity: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        div{
+            height: 70%;
+            .icons{
+                height: 70%;
+                font-size: 150%;
+                i{
+                    margin: 2%;
+                }
+            }
+            .copyright{
+                font-size: 80%;
+            } 
+        }
+    }
+}
+
+@media (min-width: 770px) and (max-width:1441px){
+    footer{
+        background-color: white;
+        height: 190px;
+        opacity: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        div{
+            height: 70%;
+            .icons{
+                height: 70%;
+                font-size: 190%;
+                i{
+                    margin: 2%;
+                }
+            }
+            .copyright{
+                font-size: 90%;
+            } 
+        }
+    }
+}
+
+@media (min-width: 1442px) and (max-width:2560px){
+    footer{
+        background-color: white;
+        height: 300px;
+        opacity: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        div{
+            height: 70%;
+            .icons{
+                height: 70%;
+                font-size: 190%;
+                i{
+                    margin: 2%;
+                }
+            }
+            .copyright{
+                font-size: 90%;
+            } 
+        }
+    }
+}

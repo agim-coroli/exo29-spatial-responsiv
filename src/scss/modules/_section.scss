@@ -1,0 +1,96 @@
+@media (min-width: 320px) and (max-width: 426px){
+    section{
+        .partie1{
+            text-align: center;
+            div{
+                p{
+                    opacity: 60%;
+                }
+                
+            }
+        }
+    }
+}
+
+@media (min-width: 427px) and (max-width: 769px){
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .partie1{
+            margin-bottom: 5%;
+            display: flex;
+            width: 80%;
+            margin-top: 5%;
+            div:first-child{
+                display: flex;
+                flex-direction: column;
+                margin-left: 5%;
+                h2{
+                    margin-bottom: 0;
+                }
+                p{
+                    margin-top: 0;
+                }
+            }
+            div:last-child{
+                width: 60%;
+                p{
+                    font-size: 70%;
+                }
+            }
+            div{
+                p{
+                    opacity: 60%;
+                }
+                
+            }
+        }
+    }
+}
+
+@media (min-width: 770px){
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .partie1{
+            display: flex;
+            width: 80%;
+            margin-top: 5%;
+            div:first-child{
+                display: flex;
+                flex-direction: column;
+                margin-left: 5%;
+                align-items: center;
+
+                h2{
+                    width: 60%;
+                }
+                p{
+                    margin-top: 0;
+                    width: 60%;
+                }
+            }
+            div:last-child{
+                width: 60%;
+                margin-bottom: 5%;
+                p{
+                    font-size: 90%;
+                    width: 80%;
+
+                }
+            }
+            div{
+                p{
+                    opacity: 60%;
+                }
+                
+            }
+        }
+    }
+}
+
+@media (min-width: 1442px) and (max-width:2560px){
+    
+}

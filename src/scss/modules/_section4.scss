@@ -1,0 +1,137 @@
+// tel 
+@media (min-width: 320px) and (max-width: 426px){
+    .partie4{
+        height: 160PX;
+        background-position: center;
+        background-size: 100%;
+        background-image: url(../../../public/images/banner.jpg);
+        width:100%;
+        margin-top: 15%;
+        .ppbutton{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            p:first-child{
+                margin-bottom: 0;
+                margin-top: 12%;
+            }
+            p:nth-child(2){
+                opacity: 60%;
+                font-size: 70%;
+            }
+            button{
+                background-color: red;
+                width: 30%;
+                font-size: 60%;
+                color: white;
+                padding: 2%;
+            }
+        }
+    }
+}
+
+// tablet
+@media (min-width: 427px) and (max-width: 769px){
+    .partie4{
+        height: 200PX;
+        background-position: center;
+        background-size: 100%;
+        background-image: url(../../../public/images/banner.jpg);
+        width:100%;
+        margin-top: 8%;
+        .ppbutton{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            p:first-child{
+                margin-bottom: 0;
+                margin-top: 7%;
+                font-size: 150%;
+            }
+            p:nth-child(2){
+                opacity: 60%;
+                font-size: 100%;
+            }
+            button{
+                background-color: red;
+                width: 15%;
+                font-size: 60%;
+                color: white;
+                padding: 1%;
+            }
+        }
+    }
+}
+
+// laptop 
+@media (min-width: 770px){
+    .partie4{
+        height: 250PX;
+        background-position: center;
+        background-size: 100%;
+        background-image: url(../../../public/images/banner.jpg);
+        width:100%;
+        margin-top: 5%;
+        .ppbutton{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            p:first-child{
+                margin-bottom: 0;
+                margin-top: 7%;
+                font-size: 200%;
+            }
+            p:nth-child(2){
+                opacity: 60%;
+                font-size: 130%;
+            }
+            button{
+                background-color: red;
+                width: 15%;
+                font-size: 60%;
+                color: white;
+                padding: 1%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1442px) and (max-width:2560px){
+    .partie4{
+        height: 350PX;
+        background-position: center;
+        background-size: 100%;
+        background-image: url(../../../public/images/banner.jpg);
+        width:100%;
+        margin-top: 5%;
+        .ppbutton{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            p:first-child{
+                margin-bottom: 0;
+                margin-top: 7%;
+                font-size: 200%;
+            }
+            p:nth-child(2){
+                opacity: 60%;
+                font-size: 130%;
+            }
+            button{
+                background-color: red;
+                width: 15%;
+                font-size: 60%;
+                color: white;
+                padding: 1%;
+            }
+        }
+    }
+}
